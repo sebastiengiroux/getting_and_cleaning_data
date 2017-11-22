@@ -62,4 +62,4 @@ tidy_data <-
   summarise_all(mean)
 
 # Write the results to a file
-write.table(tidy_data, "tidy_data.txt")
+write.table(tidy_data, "tidy_data.txt", row.name=FALSE)
